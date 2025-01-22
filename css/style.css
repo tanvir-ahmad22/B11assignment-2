@@ -579,8 +579,12 @@ footer {
         align-items: left;
         text-align: left;
         gap: 20px;
+        
     }
-    
+    footer {
+        padding: 40px 20px !important;
+        display: block;
+    }
 
     .footer-logo img {
         margin-bottom: 10px;
