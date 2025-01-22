@@ -576,7 +576,8 @@ footer {
     }
     .story-card .date-tag {
         bottom: 90px;
-        left: 25px;
+        left: 20px;
+        font-size: 9px;
     }
 
     /* Footer Section */
