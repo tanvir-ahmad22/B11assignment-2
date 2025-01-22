@@ -1,0 +1,594 @@
+/* General Reset */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.pr-color {
+    color: orange;
+}
+.sc-color {
+    color: #007bff;
+}
+.purple-color {
+    color: purple;
+}
+.pr-btn {
+    background-color: rgb(255, 165, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.pr-btn:hover {
+    background-color: #ff7b00; 
+}
+.sc-btn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.sc-btn:hover {
+    background-color: #333333; 
+  }
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fdf2da; 
+}
+  
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+.navbar-logo span {
+    font-size: 32px;
+    font-weight: bold;
+}  
+  .navbar-logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+  
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+  
+.navbar-links a {
+    color: #000000; 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+  
+.navbar-links a:hover {
+    color: #ffa500;
+}
+  
+.navbar-button {
+    background-color: #ffa500; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+  
+  
+.menu-icon {
+    display: none;
+}
+  
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background: linear-gradient(to right, #fdf2da, #f1f7fc); 
+}
+  
+.banner-text {
+    max-width: 50%;
+}
+  
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.2;
+}
+  
+ 
+  
+.banner-text p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+  
+ 
+  
+  
+  
+.banner-image {
+    max-width: 40%;
+}
+  
+.banner-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+  
+
+/* Curriculum Section */
+
+.curriculum-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8fafc;
+}
+  
+.curriculum-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1e293b;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.curriculum-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.curriculum-card {
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 30px 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.curriculum-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+  
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.curriculum-card img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+  
+.curriculum-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+  
+.curriculum-card p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+  
+.curriculum-card .read-more {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: #10b981;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.curriculum-card .read-more:hover {
+    background-color: #059669;
+    transform: translateY(-2px);
+}
+  
+.card-1 {
+    background: linear-gradient(to bottom, #DEF5FF 5%, #ffffff 40%);
+}
+.card-2 {
+    background: linear-gradient(to bottom, #FFF4DC 5%, #ffffff 40%);
+}
+.card-3 {
+    background: linear-gradient(to bottom, #F2E8FF 5%, #ffffff 40%);
+}
+  
+ 
+  
+  /* Navigation Buttons */
+.navigation-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.navigation-buttons button {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #ffba08;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.navigation-buttons button:hover {
+    background-color: #e0a800;
+    transform: scale(1.1);
+}
+  
+.prev-button {
+    background-color: #10b981;
+}
+  
+.prev-button:hover {
+    background-color: #059669;
+}
+  
+.next-button {
+    background-color: #3b82f6;
+}
+  
+.next-button:hover {
+    background-color: #2563eb;
+}
+  
+   
+
+
+.stories {
+    padding: 50px 20px;
+    text-align: center;
+    background: 
+      linear-gradient(to top, rgba(254, 189, 72, 0.4), rgba(255, 255, 255, 0.8)), 
+      url('../assets/bg.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+  
+.stories h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+}
+  
+  
+.story-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.left-card {
+    flex: 1;
+    max-width: 45%;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.left-card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+  
+.left-card .date-tag {
+    background: #00b74a;
+    color: white;
+    padding: 6px 12px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+  
+.left-card .content {
+    margin-top: 15px;
+}
+  
+.left-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.left-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+  
+  
+.right-cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+.story-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+  
+.story-card img {
+    width: 100%;
+    border-bottom: 3px solid #f3f3f3;
+}
+  
+.story-card .date-tag {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    background: #1abc9c;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+  
+.story-card h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 50px;
+    text-align: left;
+}
+  
+  /* View All Button */
+.bottom-button {
+    margin-top: 30px;
+}
+  
+.bottom-button .explore-more {
+    background: #333;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  
+  .bottom-button .explore-more:hover {
+    background: #444;
+}
+
+
+
+/* Footer Section */
+footer {
+    background-color: #009ef7; 
+    color: white;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+.footer-logo-img {
+    display: flex;
+}
+.footer-logo {
+    max-width: 300px;
+}
+  
+.footer-logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 15px; 
+}
+  
+.footer-logo h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+  
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+  
+.footer-links h3,
+.social-links h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+  
+.footer-links a:hover {
+    color: #ffe600;
+}
+  
+.social-links a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+.social-links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+  
+.social-links a:hover {
+    color: #ffe600;
+}
+.social-links-item {
+    display: flex;
+}
+  
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        display: flex;
+        padding: 10px;
+        border-bottom: 1px solid orange;
+    }
+    .hide {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    /* Hero Section */
+    .banner {
+        flex-direction: column-reverse;
+        padding: 30px 20px 40px;
+    }
+
+    .banner-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 32px;
+    }
+
+    .banner-image {
+        max-width: 80%;
+        margin: 20px auto 40px;
+    }
+
+    /* Curriculum Section */
+    
+
+    .curriculum-card {
+        width: 100%;
+    }
+    .curriculum-title {
+        font-size: 32px;
+    }
+    .card-content h3 {
+        font-size: 17px;
+    }
+    .card-content p {
+        font-size: 13px;
+    }
+
+
+    /* Stories Section */
+    .stories h2 {
+        font-size: 32px;
+    }
+    .story-layout {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-card,
+    .story-card {
+        max-width: 100%;
+    }
+
+    .right-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .story-card h4 {
+        font-size: 10px;
+        padding: 20px 15px;
+        text-align: left;
+    }
+    .story-card .date-tag {
+        bottom: 90px;
+        left: 25px;
+    }
+
+    /* Footer Section */
+    .footer {
+        display: block;
+        align-items: left;
+        text-align: left;
+        gap: 20px;
+    }
+    
+
+    .footer-logo img {
+        margin-bottom: 10px;
+    }
+
+    .footer-logo-img h2 {
+        font-size: 32px;
+    }
+
+}
+
