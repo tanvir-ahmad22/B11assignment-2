@@ -147,7 +147,10 @@ a {
 .curriculum-section {
     text-align: center;
     padding: 60px 20px;
-    background-color: #f8fafc;
+    background-image: url(../assets/bg.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
 }
   
 .curriculum-title {
@@ -286,13 +289,14 @@ a {
     padding: 50px 20px;
     text-align: center;
     background: 
-      linear-gradient(to top, rgba(254, 189, 72, 0.4), rgba(255, 255, 255, 0.8)), 
-      url('../assets/bg.png'); 
+        linear-gradient(to top, rgba(254, 189, 72, 0.2), rgba(255, 255, 255, 0.8)), 
+        url('../assets/bg.png'); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
     position: relative;
 }
+
   
 .stories h2 {
     font-size: 46px;
