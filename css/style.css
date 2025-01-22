@@ -325,6 +325,9 @@ a {
 }
   
 .left-card .date-tag {
+    position: relative;
+    bottom: 5%;
+    left: -30%;
     background: #00b74a;
     color: white;
     padding: 6px 12px;
@@ -336,6 +339,9 @@ a {
   
 .left-card .content {
     margin-top: 15px;
+    text-align: left;
+    padding: 10px 40px;
+    max-width: 80%;
 }
   
 .left-card h3 {
